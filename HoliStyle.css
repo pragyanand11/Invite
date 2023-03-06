@@ -1,0 +1,56 @@
+*{margin: 0; padding: 0; font-family:'Poppins', sans-serif ;}
+.top_header{align-items: center; background-color: #035282; }
+.container{align-items: center;margin: auto;}
+.h{text-align: center; color: aliceblue;}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: jtc;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    padding: 100px;
+  }
+  @keyframes jtc {
+   
+    0%   {background-color: purple;}
+    25%  {background-color: blue;}
+    50%  {background-color: blue;}
+    100% {background-color: purple;}
+  }
+  .para {
+    text-align: center;
+    align-items: center;
+  }
+  span{
+    font-size: 30px;
+   font-weight: 700;
+ 
+  }
+  .invite{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+   animation-name: jtc1;
+   animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes jtc1 {
+   
+    0%   {color: rgb(15, 128, 0);}
+    25%  {color: rgb(0, 119, 255);}
+    50%  {color: rgb(0, 255, 42);}
+    100% {color: red;}
+  }
+  img {
+    width: 100%; /* takes the 100 % width of its container (.box div)*/
+    height: 100%; /* takes the 100 % height of its container (.box div)*/
+  }
+  
+  
+  
